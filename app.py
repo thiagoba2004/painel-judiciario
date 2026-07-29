@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(
-    page_title="Dashboard do Poder Judiciário",
+    page_title="Painel do Poder Judiciário",
     page_icon="⚖️",
     layout="wide"
 )
@@ -104,7 +104,7 @@ except FileNotFoundError:
     st.stop()
 
 
-st.title("Dashboard de Indicadores do Poder Judiciário")
+st.title("Painel de Indicadores do Poder Judiciário")
 st.caption(
     "Análise de processos, conclusos, serventuários e população das comarcas"
 )
