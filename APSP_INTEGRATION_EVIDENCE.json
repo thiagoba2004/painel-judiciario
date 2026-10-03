@@ -7,6 +7,7 @@
     "syntax": "VALID"
   },
   "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "classification_reason": null,
   "project_code": null,
   "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
   "protocol_sha": "47fed56b77fdabd0aaefbeb47983f4cd8dd11dff",
