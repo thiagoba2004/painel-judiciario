@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.1",
+  "repository": "thiagoba2004/painel-judiciario",
+  "project_code": null,
+  "adapter_mode": "APPLICATION_RUNTIME_BRIDGE",
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "project_state_path": null,
+  "strategy_log_path": null,
+  "roadmap_path": null,
+  "runtime_engine_path": null,
+  "runtime_contract_path": null,
+  "runtime_state_path": null,
+  "recovery_probe_path": null,
+  "recovery_applicable": false,
+  "recovery_reason": "No persistent orchestration state was identified. Repository is application-runtime-only; synthetic recovery state is prohibited.",
+  "application_entrypoint_path": "app.py",
+  "requirements_path": "requirements.txt",
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "allowed_initial_operations": [
+    "READ",
+    "VERIFY",
+    "PERSIST_EVIDENCE"
+  ]
+}
