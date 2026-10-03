@@ -1,0 +1,24 @@
+{
+  "adapter_mode": "APPLICATION_RUNTIME_BRIDGE",
+  "adapter_sha": "7eb741412076b3a55eabbbb2fd3ca6e683098039",
+  "application_entrypoint": {
+    "path": "app.py",
+    "sha": "318ed9da4f744e19f24f6f2e72db2935d1f2be67",
+    "syntax": "VALID"
+  },
+  "broker_repository": "thiagoba2004/governanca-geral-modelos-ia",
+  "project_code": null,
+  "protocol_path": "APSP_AUTONOMOUS_PHASE_SUCCESSION_PROTOCOL.md",
+  "protocol_sha": "47fed56b77fdabd0aaefbeb47983f4cd8dd11dff",
+  "recovery_applicable": false,
+  "recovery_reason": "No persistent orchestration state was identified. Repository is application-runtime-only; synthetic recovery state is prohibited.",
+  "recovery_status": "NOT_APPLICABLE",
+  "repository": "thiagoba2004/painel-judiciario",
+  "requirements": {
+    "path": "requirements.txt",
+    "sha": "ba567d09f22bc720b293a3c0e06c9e1543bc2a07"
+  },
+  "schema_version": "1.1",
+  "secret_policy": "NO_LOCAL_SECRETS",
+  "status": "VERIFIED"
+}
