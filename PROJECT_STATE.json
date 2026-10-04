@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000005",
+  "project_sequence": 5,
+  "project_name": "Painel Judiciário",
+  "project_alias": null,
+  "project_id_legacy": "painel-judiciario",
+  "repository": "thiagoba2004/painel-judiciario",
+  "status": "GOVERNANCE_BASELINE_ESTABLISHED",
+  "current_strategy_code": null,
+  "current_strategy_name": null,
+  "current_phase_code": null,
+  "last_completed_milestone": "Minimum governance scaffold created by EA-000000-000019",
+  "canonical_files": [
+    "AGENTS.md",
+    "REQUEST_LOG.jsonl",
+    "STRATEGY_LOG.jsonl",
+    "PROJECT_STATE.json",
+    "ROADMAP.md"
+  ],
+  "pending_items": [
+    "Reconcile substantive local state from repository evidence; do not infer history."
+  ],
+  "next_logical_step": "Identify the next local request and register a canonical local strategy only when substantive work is authorized.",
+  "unknown_fields_are_not_inferred": true,
+  "updated_at": "2026-10-04T12:33:45.632330Z"
+}
