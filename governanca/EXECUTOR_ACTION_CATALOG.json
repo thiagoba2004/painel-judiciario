@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "project_code": "PRJ-000005",
+  "repository_full_name": "thiagoba2004/painel-judiciario",
+  "catalog_id": "PRJ-000005-EXEC-ACTIONS",
+  "effective_date": "2026-10-10",
+  "inherit_global": true,
+  "global_catalog_id": "GOV-EXEC-ACTIONS-000001",
+  "policy_ref": "GOV-POL-ECO-000001",
+  "mode": "STRICT_EXACT_ACTION_ROUTING",
+  "default": "BLOCK_UNLISTED",
+  "enforcement_status": "NORMATIVE_LOCAL_GATE_NOT_INTEGRATED",
+  "note": "Regras locais mais rigorosas prevalecem. Este arquivo não concede autorização nem instala interceptação automática na interface.",
+  "actions": [
+    {
+      "action_id": "PROJECT_SOURCE_RESEARCH",
+      "required_executor": "CHAT",
+      "description": "Pesquisar e analisar fontes do domínio",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    },
+    {
+      "action_id": "PROJECT_CANONICAL_WRITING",
+      "required_executor": "CHAT",
+      "description": "Redigir ou revisar documento canônico local",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    },
+    {
+      "action_id": "PROJECT_DETERMINISTIC_CHECK",
+      "required_executor": "SCRIPT_DETERMINISTICO",
+      "description": "Executar verificação formal já implementada",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    },
+    {
+      "action_id": "PROJECT_MULTIFILE_CODE",
+      "required_executor": "CODEX",
+      "description": "Desenvolver e testar mudanças técnicas multiarquivo",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    },
+    {
+      "action_id": "PROJECT_CROSS_APP_OPERATION",
+      "required_executor": "WORK",
+      "description": "Executar operação substancial interaplicativos",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    },
+    {
+      "action_id": "JUDICIAL_SOURCE_REVIEW",
+      "required_executor": "CHAT",
+      "description": "Avaliar fontes e decisões específicas deste domínio",
+      "override_policy": "EXPLICIT_HUMAN_ONLY"
+    }
+  ]
+}
